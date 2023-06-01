@@ -21,6 +21,7 @@ class Sets {
 
 	public void SimpleUnion(int i, int j)
 	// Replace the disjoint sets with roots i and j, i != j with their union
+	// 코드 수정 필요
 	{
 		while (parent[i] > 0) i = parent[i];
 		while (parent[j] > 0) j = parent[j];
